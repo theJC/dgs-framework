@@ -7,13 +7,13 @@
             "locked": "1.4.32"
         },
         "org.springframework.boot:spring-boot-autoconfigure-processor": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-configuration-processor": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -41,7 +41,7 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "2.6.0"
+            "locked": "2.5.0"
         },
         "com.netflix.graphql.dgs:graphql-dgs": {
             "firstLevelTransitive": [
@@ -87,13 +87,13 @@
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc",
                 "com.netflix.graphql.dgs:graphql-error-types"
             ],
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -105,23 +105,23 @@
             "locked": "5.2.13.RELEASE"
         },
         "org.springframework:spring-webmvc": {
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         }
     },
     "kapt": {
         "org.springframework.boot:spring-boot-autoconfigure-processor": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-configuration-processor": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         }
     },
     "kaptTest": {
         "org.springframework.boot:spring-boot-autoconfigure-processor": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-configuration-processor": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         }
     },
     "kotlinCompilerClasspath": {
@@ -132,10 +132,10 @@
             "locked": "1.4.32"
         },
         "org.jetbrains.kotlin:kotlin-compiler-embeddable": {
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -161,7 +161,7 @@
             "locked": "1.4.32"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -189,7 +189,7 @@
             "locked": "1.4.32"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -209,7 +209,7 @@
             "locked": "1.4.32"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -234,7 +234,7 @@
             "locked": "1.4.32"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -287,7 +287,7 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "2.6.0"
+            "locked": "2.5.0"
         },
         "com.netflix.graphql.dgs:graphql-dgs": {
             "firstLevelTransitive": [
@@ -330,7 +330,7 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc"
             ],
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8": {
             "firstLevelTransitive": [
@@ -339,7 +339,7 @@
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc",
                 "com.netflix.graphql.dgs:graphql-error-types"
             ],
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.slf4j:slf4j-api": {
             "firstLevelTransitive": [
@@ -348,10 +348,10 @@
             "locked": "1.7.30"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -363,13 +363,13 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "5.3.9.RELEASE"
+            "locked": "5.5.0"
         },
         "org.springframework:spring-context": {
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         },
         "org.springframework:spring-framework-bom": {
             "locked": "5.2.13.RELEASE"
@@ -379,10 +379,10 @@
                 "com.netflix.graphql.dgs:graphql-dgs",
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc"
             ],
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         },
         "org.springframework:spring-webmvc": {
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         }
     },
     "testAnnotationProcessor": {
@@ -393,7 +393,7 @@
             "locked": "1.4.32"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -421,7 +421,7 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "2.6.0"
+            "locked": "2.5.0"
         },
         "com.netflix.graphql.dgs:graphql-dgs": {
             "firstLevelTransitive": [
@@ -479,19 +479,19 @@
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc",
                 "com.netflix.graphql.dgs:graphql-error-types"
             ],
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter-test": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -503,7 +503,7 @@
             "locked": "5.2.13.RELEASE"
         },
         "org.springframework:spring-webmvc": {
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         }
     },
     "testRuntimeClasspath": {
@@ -547,7 +547,7 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "2.6.0"
+            "locked": "2.5.0"
         },
         "com.netflix.graphql.dgs:graphql-dgs": {
             "firstLevelTransitive": [
@@ -601,7 +601,7 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc"
             ],
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.jetbrains.kotlin:kotlin-stdlib-jdk8": {
             "firstLevelTransitive": [
@@ -611,7 +611,7 @@
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc",
                 "com.netflix.graphql.dgs:graphql-error-types"
             ],
-            "locked": "1.4.32"
+            "locked": "1.5.10"
         },
         "org.slf4j:slf4j-api": {
             "firstLevelTransitive": [
@@ -620,19 +620,19 @@
             "locked": "1.7.30"
         },
         "org.springframework.boot:spring-boot-dependencies": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter": {
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs-spring-boot-oss-autoconfigure"
             ],
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter-test": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.boot:spring-boot-starter-web": {
-            "locked": "2.3.9.RELEASE"
+            "locked": "2.5.1"
         },
         "org.springframework.cloud:spring-cloud-dependencies": {
             "locked": "Hoxton.SR10"
@@ -644,13 +644,13 @@
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "5.3.9.RELEASE"
+            "locked": "5.5.0"
         },
         "org.springframework:spring-context": {
             "firstLevelTransitive": [
                 "com.netflix.graphql.dgs:graphql-dgs"
             ],
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         },
         "org.springframework:spring-framework-bom": {
             "locked": "5.2.13.RELEASE"
@@ -661,10 +661,10 @@
                 "com.netflix.graphql.dgs:graphql-dgs-spring-boot-oss-autoconfigure",
                 "com.netflix.graphql.dgs:graphql-dgs-spring-webmvc"
             ],
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         },
         "org.springframework:spring-webmvc": {
-            "locked": "5.2.13.RELEASE"
+            "locked": "5.3.8"
         }
     }
 }
