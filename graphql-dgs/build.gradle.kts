@@ -21,6 +21,7 @@ dependencies {
 
     api("com.graphql-java:graphql-java")
     api("com.jayway.jsonpath:json-path")
+    api("com.apollographql.federation:federation-graphql-java-support")
 
     implementation("org.springframework:spring-web")
     implementation("org.springframework:spring-context")

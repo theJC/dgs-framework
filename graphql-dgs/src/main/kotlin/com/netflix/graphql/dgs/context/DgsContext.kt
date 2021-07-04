@@ -16,6 +16,7 @@
 
 package com.netflix.graphql.dgs.context
 
+import com.apollographql.federation.graphqljava.tracing.HTTPRequestHeaders
 import com.netflix.graphql.dgs.internal.DgsRequestData
 import graphql.schema.DataFetchingEnvironment
 import org.dataloader.BatchLoaderEnvironment
@@ -24,7 +25,7 @@ import org.dataloader.BatchLoaderEnvironment
  * Context class that is created per request, and is added to both DataFetchingEnvironment and BatchLoaderEnvironment.
  * Custom data can be added by providing a [DgsCustomContextBuilder].
  */
-open class DgsContext(val customContext: Any? = null, val requestData: DgsRequestData?) {
+open class DgsContext(val customContext: Any? = null, val requestData: DgsRequestData?) : HTTPRequestHeaders {
 
     companion object {
         @JvmStatic
@@ -59,5 +60,14 @@ open class DgsContext(val customContext: Any? = null, val requestData: DgsReques
             val dgsContext = batchLoaderEnvironment.getContext<DgsContext>()
             return dgsContext.requestData
         }
+    }
+
+    /**
+     * This allows optimization for consumers who use FederatedTracingInstrumentation
+     * by providing it access to the incoming headers to determine if it can short-circuit
+     * the tracing if the request does not originate from a Gateway.
+     */
+    override fun getHTTPRequestHeader(caseInsensitiveHeaderName: String): String? {
+        return requestData?.headers?.getFirst(caseInsensitiveHeaderName)
     }
 }
